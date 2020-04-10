@@ -1,0 +1,67 @@
+.label ShiftMapLandscape=$26d5 {
+}
+.label ClearScreen=$33f4 {
+}
+.label ScrollChars=$98d {
+}
+.label Split01a=$a49 {
+  .label ModX=$a77
+  .label ModY=$a79
+  .label ModA=$a75
+}
+.label Split03a=$b14 {
+  .label ModX=$b4c
+  .label ModY=$b4e
+  .label ModA=$b4a
+}
+.label Direction=$8e2
+.label ScrollForeground=$8e3 {
+}
+.label Entry=$80e
+.label ShiftMap=$b54 {
+}
+.label ScrollSprites=$95d {
+}
+.label CHAR_MAP=$8000
+.label Split03=$aa9 {
+  .label ModX=$ada
+  .label ModY=$adc
+  .label ModA=$ad8
+}
+.label DrawMapFull2=$33a8 {
+  .label ColMod=$33d2
+  .label MapMod=$33c8
+  .label ScrMod=$33cb
+}
+.label Split02=$a7f {
+  .label ModX=$aa1
+  .label ModY=$aa3
+  .label ModA=$a9f
+}
+.label Split01=$9d1 {
+  .label ModX=$a41
+  .label ModY=$a43
+  .label ModA=$a3f
+}
+.label ShiftMapBack=$a000 {
+}
+.label Split03aa=$ae2 {
+  .label ModX=$b0c
+  .label ModY=$b0e
+  .label ModA=$b0a
+}
+.label ZP_TEMP=$2 {
+}
+.label SpritePositions=$8d9
+.label ShiftMapLandscapeBack=$2d41 {
+}
+.label SpriteSpeed=$8e1
+.label MapPositionLandscape=$8dd
+.label FrameFlag=$8d8
+.label MapSpeed=$8df
+.label ScrolLTimer=$98c
+.label SCREEN_RAM=$4000
+.label ScrollLandscape=$920 {
+}
+.label COLOR_MAP=$9900
+.label MapPositionBottom=$8db
