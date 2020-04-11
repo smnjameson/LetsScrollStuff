@@ -453,10 +453,11 @@ Split03: {
 		sty ModY + 1
 
 		//Foreground
-			lda $d012
-			cmp $d012
-			bne *-3
-
+			//waste some cycles to stabilise the line
+			nop
+			nop
+			nop
+			nop
 			nop
 			nop
 			nop
