@@ -1,0 +1,44 @@
+.label FineScroll=$8e0
+.label ZP_MapLookup=$6
+.label SwapBuffers=$8e3 {
+}
+.label Entry=$80e
+.label ZP_ScreenLookup=$8
+.label Split02=$1921 {
+}
+.label Split01=$1902 {
+}
+.label DrawInitialMap=$18a3 {
+}
+.label SCREEN_RAM1=$4000
+.label SCREEN_RAM2=$4400
+.label BUFFER_SPLIT_LINE=$c
+.label TIMER=$8de
+.label ShiftColor=$900 {
+}
+.label FrameUpdateFlag=$8e1
+.label ZP_NextBuffer=$4
+.label ZP_CurrentBuffer=$2
+.label ShiftMap3=$185a {
+  .label Dest=$187e
+  .label Source=$187b
+}
+.label ZP_LineBuffer=$a
+.label ShiftMap2=$182d {
+  .label Dest=$1851
+  .label Source=$184e
+}
+.label ZP_LineColBuffer=$32
+.label D011_Val=$8e2
+.label ShiftMap1=$1800 {
+  .label Dest=$1824
+  .label Source=$1821
+}
+.label ShiftMap0=$17d3 {
+  .label Dest=$17f7
+  .label Source=$17f4
+}
+.label COLOR_RAM=$d800
+.label CHAR_COLORS=$7f00
+.label MAP=$8000
+.label MapPosition=$8df
