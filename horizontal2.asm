@@ -578,7 +578,7 @@ Split03a: {
 ShiftMap: {
 		txa 
 		clc
-		adc #$27
+		adc #$26
 		tax
 
 		.for(var i=10; i< 25; i++) {
@@ -603,7 +603,7 @@ ShiftMap: {
 ShiftMapLandscape: {
 		txa 
 		clc
-		adc #$27
+		adc #$26
 		tax
 
 		.for(var i=3; i< 10; i++) {
